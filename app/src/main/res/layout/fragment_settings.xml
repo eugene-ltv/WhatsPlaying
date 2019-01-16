@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/title_settings"
+        android:drawableLeft="@drawable/ic_arrow_back"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?selectableItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settings_tts_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="?selectableItemBackground"
+        android:text="@string/hint_tts_settings"
+        android:textColor="@color/textColor"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_title" />
+
+    <Button
+        android:id="@+id/settings_button_tts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/button_tts_settings"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_tts_tip" />
+
+    <RadioGroup
+        android:id="@+id/settings_output_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_button_tts">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_output"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/settings_output_option_headphones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:text="@string/button_output_headphones" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/settings_output_option_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/colorAccent"
+            android:textColor="@color/textColor"
+            android:text="@string/button_output_all" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

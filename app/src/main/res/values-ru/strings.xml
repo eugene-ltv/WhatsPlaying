@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_off">Выкл</string>
+    <string name="main_on">Вкл</string>
+    <string name="title_settings">Настройки</string>
+    <string name="hint_tts_settings">Вы можете настроить произношение в параметрах Синтеза речи на вашем устройстве</string>
+    <string name="button_tts_settings">Настройки Синтеза речи</string>
+    <string name="hint_output">Сообщать через:</string>
+    <string name="button_output_headphones">Наушники, когда подключены</string>
+    <string name="button_output_all">Динамик и наушники</string>
+    <string name="toast_currently_playing">Сейчас играет: %1$s - %2$s</string>
+    <string name="toast_tts_error">Ошибка инициализации Cинтеза речи</string>
+    <string name="notification_channel">Сервисная нотификация</string>
+    <string name="notification_subtitle">Активно</string>
+    <string name="notification_turn_off">Выключить</string>
+</resources>

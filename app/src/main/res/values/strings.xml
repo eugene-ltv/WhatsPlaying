@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">What\'s Playing?</string>
+
+    <string name="main_off">Off</string>
+    <string name="main_on">On</string>
+    <string name="title_settings">Settings</string>
+    <string name="hint_tts_settings">You can change pronunciation in your device Text-to-Speech Settings</string>
+    <string name="button_tts_settings">Open TTS Settings</string>
+    <string name="hint_output">Announce through:</string>
+    <string name="button_output_headphones">Headphones, when plugged-in</string>
+    <string name="button_output_all">Speaker or Headphones</string>
+
+    <string name="toast_currently_playing" >"Currently playing: %1$s - %2$s"</string>
+    <string name="toast_tts_error">Error occurred while initializing Text-To-Speech Engine</string>
+
+    <string name="notification_channel">Service notification</string>
+    <string name="notification_subtitle">Currently running</string>
+    <string name="notification_turn_off">Turn off</string>
+</resources>
