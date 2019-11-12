@@ -6,7 +6,7 @@ Simple app which tells you currently playing track name and artist from your mus
 
 ## Features
 
- * Foregroung service with notification
+ * Foreground service with notification
  * Option to choose between announcement in headphones or speaker
  * Quick link to Text-to-Speech settings
  
